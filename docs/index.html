@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<body>
-{% for step in site.instructions.files %}
-<h2>{{ step.name }} - {{ step.position }}</h2>
-<p>{{ step.content | markdownify }}</p>
-{% endfor %}
-<ul>
-    {% for link in site.data.navigation %}
-    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-    {% endfor %}
-</ul>
+    <h2>Insructions</h2>
+    <ol>
+        <li><a href='instructions/0 Installation Overview.html'>0 Installation Overview</a></li>
+        <li><a href='instructions/1 Downloading and Installing Required Apps.html'>1 Downloading And Installing Required Apps</a></li>
+        <li><a href='instructions/1_1_mac_apple_chip.html'>1 1 Mac Apple Chip</a></li>
+        <li><a href='instructions/1_1_mac_intel.html'>1 1 Mac Intel</a></li>
+        <li><a href='instructions/1_1_windows.html'>1 1 Windows</a></li>
+        <li><a href='instructions/2.1_Clone_dojo-env-setup_repo.html'>2.1 Clone Dojo-Env-Setup Repo</a></li>
+        <li><a href='instructions/2.2_open_the_repo.html'>2.2 Open The Repo</a></li>
+        <li><a href='instructions/2.3_create_dojo-env.html'>2.3 Create Dojo-Env</a></li>
+        <li><a href='instructions/2.4_testing_the_env.html'>2.4 Testing The Env</a></li>
+        <li><a href='instructions/2.5_setting_the_default_env.html'>2.5 Setting The Default Env</a></li>
+        <li><a href='instructions/2.6_add_nbextensions.html'>2.6 Add Nbextensions</a></li>
+        <li><a href='instructions/2_Setting_Up_dojo-env.html'>2 Setting Up Dojo-Env</a></li>
+        <li><a href='instructions/3_install_code_editor.html'>3 Install Code Editor</a></li>
+        <li><a href='instructions/Final Notes.html'>Final Notes</a></li>
+        <li><a href='instructions/Updating_dojo_env.html'>Updating Dojo Env</a></li>
+    </ol>
+
 </body>
 </html>
